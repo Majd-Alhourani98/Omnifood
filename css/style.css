@@ -25,7 +25,12 @@
 
 ---------------- 05 SPACING SYSTEM ---------------------
 2 / 4 / 8 / 12/ 16/ 24 / 32 / 48 / 64 / 89 / 96 / 128
+
 */
+
+html {
+  font-size: 62.5%;
+}
 
 * {
   padding: 0;
@@ -38,4 +43,17 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+}
+
+/* HERO SECTION */
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  background-color: red;
+}
+
+.hero-img {
+  width: 100%;
 }
