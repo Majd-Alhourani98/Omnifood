@@ -26,12 +26,12 @@
 - Tints: #fdf2e9 - #fae5d3
 - shades: #cf711f
 - Accents: 
-- Greys: #333  
+- Greys: #333  - #555 - #888
 
 ---------------- 03 SHADOW -----------------------------
 
 ---------------- 04 BORDER READIUS ---------------------
-Default: 9px
+Default: 9px - 11px
 
 ---------------- 05 SPACING SYSTEM ---------------------
 2 / 4 / 8 / 12/ 16/ 24 / 32 / 48 / 64 / 89 / 96 / 128
@@ -163,4 +163,8 @@ body {
 /* HELPER CLASSES */
 .margin-right-sm {
   margin-right: 1.6rem;
+}
+
+strong {
+  font-weight: 500;
 }
