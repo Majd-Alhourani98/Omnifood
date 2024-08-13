@@ -95,6 +95,10 @@ body {
   align-items: center;
 }
 
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 /* HEADINGS */
 .heading-primary,
 .heading-secondary,
